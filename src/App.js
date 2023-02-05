@@ -1,7 +1,7 @@
 import './App.css';
 import {LeftMenu} from './Components/LeftMenu/LeftMenu';
 import {MainContainer} from './Components/MainContainer/MainContainer';
-import {RightBar} from './Components/RightMenu/RIghtBar';
+import {RightBar} from './Components/RightMenu/RightBar';
 import { BottomContainer } from './Components/BottomContainer/BottomContainer';
 
 

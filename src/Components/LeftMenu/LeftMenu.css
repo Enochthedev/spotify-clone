@@ -34,9 +34,35 @@
     font-weight: 700;
 }
 
-.searchBox{
+.leftMenu .menuIcons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.leftMenu .menuIcons .menuIcon{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    text-decoration: none;
+    color: var(--icon-color);
+    margin-bottom: 10px;
 }
+
+/*on hover grow a bit and have a green outline on the left side*/
+.leftMenu .menuIcons .menuIcon:hover{
+    transform: scale(1.1);
+    transition: var(--transition);
+    color: var(--menu-color-hover);
+}
+
+.leftMenu .menuIcons .menuIcon h3{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.leftMenu .menuIcons .menuIcon i{
+    font-size: 30px;
+}
+
+
