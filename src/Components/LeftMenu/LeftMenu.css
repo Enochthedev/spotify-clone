@@ -1,0 +1,42 @@
+.leftMenu{
+    width: 20%;
+    height: 100vh;
+    background-color: var(--menu-color);
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: fixed;
+    transition: var(--transition);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.leftMenu .logoContainer{
+    color: var(--icon-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.leftMenu .logoContainer i{
+    font-size: 30px;
+}
+
+.leftMenu .logoContainer i :nth-of-type(0){
+    font-size: 30px !important;
+}
+
+.leftMenu .logoContainer h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.searchBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
